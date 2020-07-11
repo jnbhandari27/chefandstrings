@@ -8,7 +8,6 @@ try:
                 a = [int(a) for a in input().split()]
                 sum = [(abs(a[i + 1] - a[i])-1) for i in range(len(a)-1)]
                 tot = 0
-                c = 0
                 for k in sum:
                     tot = tot+k
                 print(tot)
